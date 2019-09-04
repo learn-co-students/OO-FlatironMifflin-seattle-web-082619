@@ -4,8 +4,8 @@ class Manager
       @@all = []
 
       def initialize(name, age)
-        @name = name,
-        @age = age,
+        @name = name
+        @age = age
         @@all << self
       end
 
@@ -15,7 +15,6 @@ class Manager
 
       #returns a String that is the department that the manager oversees
       def managers_department
-        p Department.all
         Department.all.each do |department|
           if department.manager == self
             return department
