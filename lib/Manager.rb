@@ -5,7 +5,7 @@ class Manager
 
       def initialize(name, age)
         @name = name,
-        @age = age
+        @age = age,
         @@all << self
       end
 
