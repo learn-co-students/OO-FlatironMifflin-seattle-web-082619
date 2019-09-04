@@ -6,6 +6,7 @@ class Department
 
   def initialize(manager, name)
     @manager = manager
+    @employees = []
     @name = name
     @@all << self
   end
