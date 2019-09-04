@@ -17,7 +17,7 @@ class Manager
       def managers_department
         Department.all.each do |department|
           if department.manager == self
-            p department
+            return department
           end
         end
       end
