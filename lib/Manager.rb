@@ -31,7 +31,7 @@ class Manager
 
       #returns an Array of all the employees that the manager oversees
       def employees
-        managers_department.employees
+        p managers_department.employees
       end
 
       #takes a String argument and a Fixnum argument of an employee's name
