@@ -36,6 +36,7 @@ class Manager
 
       #takes a String argument and a Fixnum argument of an employee's name
       def hire_employee(employee)
+        p employees
         employees << employee
       end
 
