@@ -1,12 +1,12 @@
 
 class Employee
-  attr_reader :name, :department 
+  attr_reader :name, :department
   attr_accessor :salary, :manager
 
   @@all = []
 
   def initialize(name, salary)
-    @name = name,
+    @name = name
     @salary = salary
     @@all << self
   end
