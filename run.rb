@@ -5,7 +5,7 @@ require 'pry'
 
 #Test your code here
 manager1 = Manager.new("ron", 30)
-manager2 = Manager.new("jingjing", 40)
+manager2 = Manager.new("jingle", 40)
 manager3 = Manager.new("juan", 33)
 manager4 = Manager.new("ston", 55)
 
