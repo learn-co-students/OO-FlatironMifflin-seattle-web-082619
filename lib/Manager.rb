@@ -31,7 +31,7 @@ class Manager
 
       #returns an Array of all the employees that the manager oversees
       def employees
-        p managers_department
+        p managers_department.employees
         #managers_department.employees
       end
 
